@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+    .overview_page {
+        margin: 20px;
+        padding: 24px 16px;
+    }
+    .intro .row{flex-direction: column-reverse;}
+    .intro img{padding-bottom: 24px;}
+    .intro{padding-top: 20px;}
+    .intro .col-md-5 img{height: unset;}
+    .header .navbar-brand{font-size: 30px;}
+    .intro ul{justify-content: center;}
+}
