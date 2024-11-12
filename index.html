@@ -5,81 +5,517 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="./images/favicon.svg" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
-    <link rel="stylesheet" href="./css/custom.css">
-    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="icon" type="image/x-icon" href="./img-videos/favicon.png" />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
 
     <title>My Portfolio</title>
   </head>
   <body>
     <div class="wrapper">
-        <div class="overview_page">
-            <header class="header">
-                    <nav class="navbar navbar-expand-lg navbar-light ">
-                        <div class="container-fluid">
-                        <a class="navbar-brand" href="#">Portfolio</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Skills</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
-                                </li>
-                                </ul>
-                            </div>
-                        </div>
-                </nav>
-            </header>
+      <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <div class="container-fluid justify-content-center">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent" >
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#project">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
 
-            <section class="intro">
-                <div class="row">
-                    <div class="col-md-7 align-self-center">
-                        <h3>Hello, It's Me</h3>
-                        <h1 class="py-2">Mohammed Wasim</h1>
-                        <h3>And I'm a Frontend Developer</h3>
-                        <p class="py-3 py-md-5">Front-End Developer with 3.5 years of experience, including 2.5 years
-                            in React, HTML, CSS, JavaScript, and jQuery, and 1 year in a non-IT
-                            role. Skilled in building responsive web applications and theme-based
-                            solutions. Eager to apply diverse skills to create user-focused digital
-                            experiences.
-                        </p>
-                        <ul class="d-flex pb-3 pb-md-5">
-                            <li><a href="https://www.linkedin.com/in/iamwasim124/" target="_blank"><img src="./img-videos/linked-in.svg"></a></li>
-                            <li><a href="mailto:iamwasim124@gmail.com"><img src="./img-videos/mail.svg"></a></li>
-                            <li><a href="tel:+918123833968"><img src="./img-videos/call.svg"></a></li>
-                        </ul>
-                        <div class="text-md-start text-center">
-                            <a href="./img-videos/CV.pdf" target="_blank" class="cv_btn">Download CV</a>
-                        </div>
-                    </div>
-                    <div class="col-md-5 text-center">
-                        <figure>
-                            <img  src="./img-videos/Portfolio.jpeg">
-                        </figure>
-                    </div>
+      <section class="intro">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 align-self-center">
+                <h3>Hello, It's Me</h3>
+                <h1 class="py-2">Mohammed Wasim</h1>
+                <h3>And I'm a Frontend Developer</h3>
+                <p class="py-3 py-md-5">
+                  Front-End Developer with 3.5 years of experience, including
+                  2.5 years in React, HTML, CSS, JavaScript, and jQuery, and 1
+                  year in a non-IT role. Skilled in building responsive web
+                  applications and theme-based solutions. Eager to apply diverse
+                  skills to create user-focused digital experiences.
+                </p>
+                <ul class="d-flex pb-3 pb-md-5">
+                  <li>
+                    <a href="https://www.linkedin.com/in/iamwasim124/" target="_blank" >
+                        <img src="./img-videos/linked-in.svg" alt="linkedin" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:iamwasim124@gmail.com">
+                        <img src="./img-videos/mail.svg" alt="mail" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tel:+918123833968">
+                        <img src="./img-videos/call.svg" alt="call"/>
+                    </a>
+                  </li>
+                </ul>
+                <div class="text-md-start text-center">
+                  <a href="./img-videos/CV.pdf" target="_blank" class="cv_btn" >Download CV</a>
                 </div>
-                
-            </section>
+              </div>
+              <div class="col-md-5 text-center align-self-center">
+                <figure>
+                  <img src="./img-videos/Portfolio.jpeg" alt="my_image"/>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <section class="about" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 align-self-center">
+              <h2 class="pb-2">About <span>Me</span></h2>
+              <h3>Frontend Developer</h3>
+              <ul id="myList">
+                <li class="py-2">
+                  My journey into web development began in a very different
+                  field: Electrical Engineering. Initially, I started my career
+                  at Infosys BPM Ltd in the Order Management Process team, where
+                  I developed skills in task coordination and inter-team
+                  collaboration. However, I soon realized that this role didn’t
+                  align with my aspirations. I was drawn to more dynamic and
+                  creative fields within the IT industry, and that curiosity led
+                  me to explore opportunities in web hosting and support.
+                </li>
+                <li class="py-2">
+                  This exploration brought me to Diya Systems, where I worked as
+                  an agent specializing in web hosting technologies. In this
+                  role, I provided support for customers dealing with
+                  server-related website issues. It was my first hands-on
+                  experience in the tech world, and I became deeply interested
+                  in the inner workings of websites, server management, and
+                  troubleshooting. This exposure sparked my passion for web
+                  development, leading me to start learning HTML, CSS, and
+                  JavaScript in my free time. It didn’t take long before I
+                  realized that web development was where I wanted to focus my
+                  career.
+                </li>
+                <li class="py-2">
+                  Driven to build a professional path in web development, I
+                  transitioned to a role as a Frontend Developer at Codebele.
+                  This role allowed me to immerse myself fully in creating
+                  interactive and responsive websites. I honed my skills in
+                  HTML, CSS, JavaScript, jQuery, and Bootstrap, transforming
+                  static designs into dynamic and user-friendly web pages.
+                  Codebele was an incredible place to learn, but an exciting
+                  change came when it was acquired by Terralogic. As a result, I
+                  became a full-time employee at Terralogic, where I’ve
+                  continued to develop my frontend skills and work on projects
+                  that deliver high-quality, responsive web solutions for
+                  clients.
+                </li>
+                <li class="py-2">
+                  Over the last 2.5 years at Terralogic, I’ve had the
+                  opportunity to work on various projects, building websites
+                  that are both functional and engaging. My work has involved
+                  every stage of the development process, from planning and
+                  design to coding and testing. I’ve used my skills to design
+                  custom email templates that support effective client
+                  communication and created interactive web pages that adapt
+                  seamlessly to different screen sizes, ensuring a consistent
+                  user experience across devices.
+                </li>
+                <li class="py-2">
+                  Recently, I began expanding my skill set by learning React, a
+                  JavaScript library that brings new depth to frontend
+                  development. Although I’m only six months into using React,
+                  I’ve already taken on a few projects to deepen my
+                  understanding and broaden my web development capabilities.
+                  While I’m still relatively new to React, this transition is an
+                  exciting step toward a broader technical skill set, and I’m
+                  eager to continue exploring what it offers.
+                </li>
+                <li class="py-2">
+                  As a developer, I am always looking to learn and grow. The
+                  tech industry is constantly evolving, and staying up-to-date
+                  with the latest tools and technologies is essential to remain
+                  competitive. I regularly take online courses, attend
+                  workshops, and read articles to keep my skills sharp and
+                  broaden my knowledge. I also enjoy collaborating with other
+                  developers, as I believe that sharing knowledge and ideas is
+                  key to improving as a professional.
+                </li>
+                <li class="py-2">
+                  Outside of work, I am passionate about building personal
+                  projects that allow me to experiment with new ideas and learn
+                  new skills. I also enjoy contributing to open-source projects,
+                  as it allows me to collaborate with developers from all over
+                  the world and give back to the community that has helped me
+                  grow. These projects not only enhance my technical abilities
+                  but also provide me with the opportunity to work on projects
+                  that I am truly passionate about.
+                </li>
+                <li class="py-2">
+                  In conclusion, my journey from an electrical engineer to a web
+                  developer has been a rewarding one, filled with challenges and
+                  opportunities to learn. My passion for technology and
+                  problem-solving continues to drive me as I work on building
+                  interactive and engaging web experiences. I am excited about
+                  the future of web development and look forward to continuing
+                  to grow as a developer, taking on new challenges, and
+                  contributing to the digital world in meaningful ways.
+                </li>
+              </ul>
+              <div class="text-center pt-4">
+                <button id="toggleButton" class="cv_btn">Show More</button>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="pb-md-5 pb-4">My <span>Skillset</span></h2>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <img src="./img-videos/html.png" alt="html" />
+                  </div>
+                  <div class="card-back">
+                    <ul>
+                      <li>
+                        Proficient in creating well-structured, semantic HTML
+                        layouts that enhance accessibility and SEO.
+                      </li>
+                      <li>
+                        Experienced in building responsive layouts using HTML5
+                        tags and attributes to ensure compatibility across
+                        various devices.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <img src="./img-videos/css.png" alt="css" />
+                  </div>
+                  <div class="card-back">
+                    <ul>
+                      <li>
+                        Skilled in using modern CSS features like Flexbox and
+                        Grid to create responsive and adaptable layouts.
+                      </li>
+                      <li>
+                        Expertise in CSS animations and transitions to enhance
+                        user experience with engaging visual effects.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <img src="./img-videos/bootstrap.png" alt="bootstrap" />
+                  </div>
+                  <div class="card-back">
+                    <ul>
+                      <li>
+                        Strong understanding of Bootstrap’s grid system and
+                        utility classes for building mobile-first, responsive
+                        designs efficiently.
+                      </li>
+                      <li>
+                        Experienced in customizing Bootstrap components to align
+                        with specific branding and design requirements.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <img src="./img-videos/javaScript.png" alt="javaScript" />
+                  </div>
+                  <div class="card-back">
+                    <ul>
+                      <li>
+                        Familiar with core JavaScript concepts and basic ES6+
+                        syntax for building interactive web pages.
+                      </li>
+                      <li>
+                        Able to manipulate the DOM and handle simple events to
+                        add basic interactivity.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <img src="./img-videos/jQuery.png" alt="jQuery" />
+                  </div>
+                  <div class="card-back">
+                    <ul>
+                      <li>
+                        Experienced in using jQuery for basic DOM manipulations,
+                        like showing/hiding elements and simple animations.
+                      </li>
+                      <li>
+                        Knowledgeable in applying jQuery methods to simplify
+                        repetitive tasks and AJAX calls for data fetching.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-inner">
+                  <div class="card-front">
+                    <img src="./img-videos/react.png" alt="react" />
+                  </div>
+                  <div class="card-back">
+                    <ul>
+                      <li>
+                        Skilled in building responsive and user-friendly UIs in
+                        React, using components to create a consistent look and
+                        feel across the application.
+                      </li>
+                      <li>
+                        Proficient in structuring component-based layouts,
+                        leveraging hooks like useState for managing UI state and
+                        ensuring smooth interactivity.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my_projects" id="project">
+        <div class="container">
+          <h2 class="pb-md-5 pb-4">Projects <span>I've Worked On</span></h2>
+          <ul>
+            <li> Hexaware: 
+                <a href="https://hexaware.com/"> https://hexaware.com/</a>
+            </li>
+            <h5>
+              Hexaware Technologies is an IT services company specializing in
+              digital transformation, automation, and cloud solutions to help
+              businesses optimize operations and enhance customer experiences.
+            </h5>
+            <li>
+              Collabera:
+              <a href="https://collabera.com/"> https://collabera.com/</a>
+            </li>
+            <h5>
+              Collabera is a global IT staffing and solutions company that
+              provides workforce solutions, consulting, and managed services to
+              help businesses meet their technology and talent needs
+              effectively.
+            </h5>
+            <li>
+              Kotaklife:
+              <a href="https://www.kotaklife.com/"> https://www.kotaklife.com/</a>
+            </li>
+            <h5>
+              Kotak Life Insurance is one of India’s leading insurance
+              companies, providing a range of life insurance products, including
+              term plans, savings and investment plans, child plans, and
+              retirement solutions, to help individuals secure their financial
+              future and protect their loved ones.
+            </h5>
+            <li>
+              Cloudhopbakeshop:
+              <a href="https://cloudhopbakeshop.com/"> https://cloudhopbakeshop.com/</a>
+            </li>
+            <h5>
+              Cloudhop Bake Shop is an online bakery offering a variety of
+              freshly made, high-quality baked goods, including cakes, pastries,
+              and desserts, with convenient online ordering and delivery options
+              for a seamless customer experience.
+            </h5>
+            <li>
+              Sbicaps:
+              <a href="https://www.sbicaps.com/"> https://www.sbicaps.com/</a>
+            </li>
+            <h5>
+              SBICAP (SBI Capital Markets) is a leading investment banking
+              company in India, offering a range of services including capital
+              raising, advisory, mergers and acquisitions, and project finance
+              to help businesses and governments achieve their financial and
+              strategic goals.
+            </h5>
+            <li>
+              Asato:
+              <a href="https://www.asato.ai/"> https://www.asato.ai/</a>
+            </li>
+            <h5>
+              Asato.ai is a technology company focused on leveraging artificial
+              intelligence to enhance decision-making and optimize business
+              processes, offering AI-driven solutions tailored for diverse
+              industry needs.
+            </h5>
+            <li>Axio:
+                <a href="https://axio.co.in/"> https://axio.co.in/</a>
+            </li>
+            <h5>
+              Axio provides innovative digital solutions in credit protection
+              and insurance, helping individuals and businesses manage risk and
+              secure their financial well-being through flexible insurance and
+              protection plans.
+            </h5>
+            <li>
+              Lollypop:
+              <a href="https://lollypop.design/"> https://lollypop.design/</a>
+            </li>
+            <h5>
+              Lollypop Design is a creative design agency specializing in user
+              experience (UX) and user interface (UI) design, delivering
+              impactful digital experiences through innovative and visually
+              appealing design solutions for web and mobile platforms.
+            </h5>
+            <li>
+              Tataconsumer:
+              <a href="https://www.tataconsumer.com/"> https://www.tataconsumer.com/</a>
+            </li>
+            <h5>
+              Tata Consumer Products is a leading global food and beverage
+              company, offering a wide range of products across categories like
+              tea, coffee, water, and packaged foods, with a focus on health,
+              sustainability, and consumer-centric innovation.
+            </h5>
+          </ul>
+          <h3>
+            There are multiple projects I have worked on, but cannot list them
+            all here. I have also supported several maintenance projects, where
+            I assisted in addressing urgent client requirements, fixing issues,
+            and ensuring the updates went live without delay.
+          </h3>
+        </div>
+      </section>
+      <section class="services" id="services">
+        <div class="container">
+          <h2>Our <span>Services</span></h2>
+          <h3 class="py-md-4 py-3">Freelancer</h3>
+          <ul>
+            <li>
+              "We provide support for other projects based on the specific needs
+              and requirements of our clients."
+            </li>
+            <li>
+              "Our expertise lies in creating engaging web pages and email
+              templates that are highly beneficial for businesses."
+            </li>
+            <li>
+              "We offer interactive and cost-effective web solutions that
+              deliver great value without straining our customers' budgets."
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="contact_form" id="contact">
+        <div class="container">
+          <form class="Enquiry_form">
+            <div class="row">
+              <h2 class="my-2 py-2 text-center">Contact <span>Form</span></h2>
+              <div class="col-md-6">
+                <div class="mt-md-4 mt-3">
+                  <label for="firstname" class="form-label">First Name</label>
+                  <input type="text" class="form-control" id="firstname" name="firstname" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mt-md-4 mt-3">
+                  <label for="lastname" class="form-label">Last Name</label>
+                  <input type="text" class="form-control" id="lastname" name="lastname" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mt-md-4 mt-3 mobile_field_reg">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="text" class="form-control" id="email" name="email" />
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="mt-md-4 mt-3">
+                  <label for="phone_number" class="form-label">Phone Number</label>
+                  <input type="number" class="form-control" id="phone_number" name="phone_number"/>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="mt-md-4 mt-3">
+                  <label for="text-area" class="form-label">Message</label>
+                  <textarea class="form-control" id="text-area" name="text-area" rows="6"></textarea>
+                </div>
+              </div>              
+              <div class="col-md-12 text-center">
+                <div class="mt-md-4 mt-3">
+                  <button type="submit" class="cv_btn">Submit</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container text-center">
+          <p>&copy; 2024 Mohammed Wasim | Frontend Developer</p>
+          <p>Feel free to get in touch:</p>
+          <a href="https://www.linkedin.com/in/iamwasim124" target="_blank" class="btn btn-link">LinkedIn</a> |
+          <a href="mailto:iamwasim124@gmail.com" class="btn btn-link">Email Me</a> |
+          <a href="tell:+918123833968" class="btn btn-link">Call</a>
+          <p class="mt-2">Built with passion using HTML, CSS, JavaScript, jQuery, and React</p>
+        </div>
+      </footer>
+      
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
     <script src="./js/custom.js"></script>
   </body>
 </html>
