@@ -1,4 +1,30 @@
 $(document).ready(function () {
+
+//email submission script code start
+
+(function(){
+  emailjs.init({
+    publicKey: "AAA6Nsx0qTJRlLfOj",
+  });
+})();
+
+function sendMail(){
+  
+  let parms = {
+    firstname: document.getElementById("firstname").value,
+    lastname: document.getElementById("lastname").value,
+    email: document.getElementById("email").value,
+    phone_number: document.getElementById("phone_number").value,
+    message: document.getElementById("message").value,
+  }
+  emailjs.send("service_iy5at7i","template_ae8hdey",parms).then($(".contact_form").html("<h5 class='text-center'>Thank you for your Enquiry <br><br> We will get back to you shortly...!"));  
+  }
+
+
+//email submission script code end
+
+
+  
   $(".Enquiry_form").validate({
     rules: {
       firstname: {
@@ -44,6 +70,10 @@ $(document).ready(function () {
       error.insertAfter(element); // Place error message after input field
     },
     submitHandler: function (form) {
+
+//email initiate
+      sendMail();
+//email initiate
       form.submit(); // Submit form when valid
     },
   });
@@ -96,7 +126,5 @@ $("#toggleButton").click(function () {
 });
 
 // showmore script end
-
-
 
 });
