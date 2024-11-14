@@ -1,1 +1,25 @@
-@media (max-width:1023px){.card,.intro .col-md-5 img{height:unset}.header .navbar-toggler{display:none}.card-back,.card-front{position:unset}.card{animation:unset}.card:hover .card-inner{transform:none}.card-back{transform:unset}.about,.contact_form,.intro,.my_projects,.services,.skills{margin:16px}}@media (max-width:767px){.about,.contact_form,.intro,.my_projects,.services,.skills{margin:20px;padding:24px 0}.intro .row{flex-direction:column-reverse}.intro img{margin-bottom:40px}.intro ul img{width:40px;margin:unset}.intro{padding-top:20px}.about .col-md-5 img,.intro .col-md-5 img{height:unset}.header .navbar-brand{font-size:30px}.intro ul{justify-content:center}.my_projects h3,.my_projects ul,.services ul{padding-left:20px}.card-back li{padding-bottom:16px}.services li{padding:8px 0}}
+@media (max-width: 1199px) {
+    .header .navbar-toggler{display: none;}
+    .card-front, .card-back{position: unset;}
+    .card{animation:unset;height: unset;}
+    .card:hover .card-inner {transform: none;}
+    .card-back{transform: unset;}
+    .intro, .about, .skills, .my_projects, .services, .contact_form {margin: 16px;}
+    .intro .col-md-5 img{height: unset;}
+}
+
+
+@media (max-width: 767px) {
+    .intro,.about, .skills, .my_projects, .services, .contact_form {margin: 20px;padding: 24px 0px;}
+    .intro .row{flex-direction: column-reverse;}
+    .intro img{margin-bottom: 40px;}
+    .intro ul img{width: 40px;margin: unset;}
+    .intro{padding-top: 20px;}
+    .intro .col-md-5 img,.about .col-md-5 img{height: unset;}
+    .header .navbar-brand{font-size: 30px;}
+    .intro ul{justify-content: center;}
+    .my_projects ul, .services ul {padding-left: 20px;}
+    .card-back li{padding-bottom: 16px;}
+    .my_projects h3{padding-left: 20px;}
+    .services li{padding: 8px 0;}
+}
