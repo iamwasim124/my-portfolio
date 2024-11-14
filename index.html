@@ -438,21 +438,60 @@
       <section class="services" id="services">
         <div class="container">
           <h2>Our <span>Services</span></h2>
-          <h3 class="py-md-4 py-3">Freelancer</h3>
+          <h3 class="py-md-4 py-3">
+            Freelance <span>Web Development & Email Template</span> Services
+          </h3>
+          <h4>
+            As a skilled freelancer with expertise in frontend web development
+            and business-oriented solutions, we specialize in delivering:
+          </h4>
           <ul>
             <li>
-              "We provide support for other projects based on the specific needs
-              and requirements of our clients."
+              <span><b>Custom Web Pages:</b></span> We create interactive,
+              responsive, and visually engaging websites that provide seamless
+              user experiences. Whether it’s a small college project or a
+              business website, we offer solutions that meet the specific needs
+              of our clients, built with <strong>HTML</strong>,
+              <strong>CSS</strong>, and <strong>JavaScript</strong>.
             </li>
             <li>
-              "Our expertise lies in creating engaging web pages and email
-              templates that are highly beneficial for businesses."
+              <span><b>Business Email Templates:</b></span> Our email templates
+              are designed to effectively communicate your brand message,
+              increasing engagement and helping your business reach new heights.
+              We create <strong>responsive</strong> and professional templates
+              tailored to suit your business objectives.
             </li>
             <li>
-              "We offer interactive and cost-effective web solutions that
-              deliver great value without straining our customers' budgets."
+              <span><b>WordPress Solutions:</b></span> WordPress is a powerful
+              tool, and we use it to develop user-friendly and easy-to-manage
+              websites. We help you set up and customize WordPress websites,
+              providing a cost-effective way for businesses to manage their
+              online presence. Big companies trust WordPress for its ease of use
+              and scalability.
             </li>
           </ul>
+          <h4 class="py-3">Why Choose <span>Us</span>?</h4>
+          <ul>
+            <li>Expertise in creating interactive, mobile-first websites</li>
+            <li>Cost-effective solutions for businesses of all sizes</li>
+            <li>Fast turnaround with a focus on quality</li>
+            <li>
+              Fully responsive web design for seamless browsing across devices
+            </li>
+            <li>
+              Support for both front-end (HTML, CSS, JS) and back-end
+              (WordPress) development
+            </li>
+          </ul>
+          <h4 class="py-3">Get Started with Us <span>Today!</span></h4>
+          <h5>
+            If you're looking for affordable and professional web development or
+            custom email templates for your business, look no further. Reach out
+            to us and start your project with us today.
+          </h5>
+          <div class="pt-md-5 pt-4 text-center">
+            <a href="#contact" class="cv_btn">Contact Us</a>
+          </div>
         </div>
       </section>
 
@@ -516,6 +555,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src=" https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="./js/custom.js"></script>
+    <script>
+      function sendEmail() {
+        Email.send({
+          Host: "smtp.gmail.com", // e.g., "smtp.gmail.com"
+          Username: "loganstark444@gmail.com",
+          Password: "yvrr mobw wjrd vxne",
+          To: "loganstark444@gmail.com",
+          From: "loganstark444@gmail.com",
+          Subject: "Test Email",
+          Body: "Hello, this is a test email from JavaScript!",
+          port: 587,
+        })
+          .then((message) => alert("Email sent successfully!"))
+          .catch((error) => console.error("Error:", error));
+      }
+      sendEmail();
+    </script>
   </body>
 </html>
