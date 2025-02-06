@@ -53,14 +53,17 @@ html {scroll-behavior: smooth;}
 .header .navbar-brand{font-size: 36px;color: #00d8e9;pointer-events: none;}
 .header .nav-link{font-size: 24px;padding:12px 24px !important;}
 .header .nav-link{color: #fff !important;}
+.header .nav-link:hover{color: #00d8e9 !important;}
 .header .nav-link.active{color: #00d8e9 !important;}
 .intro{padding-top: 40px;color: #fff;}
 .intro h1{color: #00d8e9;}
 .intro .col-md-5 img{border-radius: 30%;height: 450px;box-shadow: 0px 4px 30px rgba(0, 216, 233, 0.6);}
+.intro ul img:hover{transform: scale(1.1);}
 .intro li{padding-right: 20px;}
 .intro li:last-child{padding-right: 0;}
 .intro p{max-width: 600px;}
-.intro .cv_btn, .contact_form .cv_btn, .about .cv_btn, .services .cv_btn{background-color: #00d8e9;color: #fff;padding: 12px 24px;border-radius: 12px;display: inline-block;box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 216, 233, 0.5);transition: all 0.3s ease;}
+.intro .cv_btn, .contact_form .cv_btn, .about .cv_btn, .services .cv_btn{background-color: #00d8e9;color: #fff;padding: 12px 24px;border-radius: 12px;display: inline-block;border: 0;}
+.intro .cv_btn:hover, .contact_form .cv_btn:hover, .about .cv_btn:hover, .services .cv_btn:hover{box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px rgba(0, 216, 233, 0.5);transition: all 0.3s ease;}
 .intro, .about, .skills, .my_projects, .services,.contact_form{margin: 50px;padding: 40px 0;background-color: #20242d;border-radius: 40px;color: #fff;}
 .about span, .skills span, .my_projects span, .services span, .contact_form span{color: #00d8e9;}
 .my_projects a{word-break: break-all;}
@@ -95,3 +98,4 @@ html {scroll-behavior: smooth;}
 .contact_form .form-control{height: 50px;}
 .footer{margin: 40px 0;}
 .footer p{font-size: 18px;}
+.footer .btn-link:hover{transform: scale(1.1);}
